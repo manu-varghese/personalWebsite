@@ -952,3 +952,6 @@ section {
     padding-right: 20px 15px;
   }
 }
+form .error{
+  color: red;
+}

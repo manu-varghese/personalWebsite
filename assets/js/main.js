@@ -254,3 +254,13 @@
   });
 
 })()
+
+const form = document.getElementById("submit-form")
+const userName = document.getElementById("name")
+const userEmail = document.getElementById("email")
+const subject = document.getElementById("subject")
+
+form.addEventListener('submit', e =>{
+    e.preventDefault();
+    checkInput();
+});
